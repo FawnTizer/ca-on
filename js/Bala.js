@@ -7,7 +7,7 @@ class Bala {
 
      };
       this.r=30;
-      this.body = Bodies.circle(x,y,this.r,options):
+      this.body = Bodies.circle(x,y,this.r,options): /// este es PUNTO Y COMA 
       this.image=loadImage ("./assets/cannonball.png");
       World.add(world, this.body);
     }
